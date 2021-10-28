@@ -1,0 +1,102 @@
+1. How would you define Machine Learning?
+
+- Machine learning is a branch of artificial intelligence (AI) and computer science which focuses 
+on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
+
+- Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and 
+improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs 
+that can access data and use it to learn for themselves.
+
+2. Can you name four types of problems where it shines?
+
+Machine Learning is great for complex problems for which we have no algorithmic solution, 
+to replace long lists of hand-tuned rules, to build systems that adapt to fluctuating environments, 
+and finally to help humans learn (e.g., data mining).
+
+3. What is a labeled training set?
+
+A labeled training set is a training set that contains the desired solution (a.k.a. a label) for each instance
+
+A training set is used to train an algorithm, and then you use the trained model on the test set to predict the response 
+variable values that are already known. The final step is to compare the predicted responses against the actual (observed) 
+responses to see how close they are
+
+
+4. What are the two most common supervised tasks?
+
+  regression and classification.
+
+
+5. Can you name four common unsupervised tasks?
+
+clustering, visualization, dimensionality reduction, and association rule learning.
+
+
+6. What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
+
+Reinforcement Learning is likely to perform best if we want a robot to learn to walk in various unknown terrains since this is 
+typically the type of problem that Reinforcement Learning tackles. It might be possible to express the problem as a supervised 
+or semisupervised learning problem, but it would be less natural.
+
+
+7. What type of algorithm would you use to segment your customers into multiple groups?
+
+If you don’t know how to define the groups, then you can use a clustering algorithm (unsupervised learning) 
+to segment your customers into clusters of similar customers. 
+However, if you know what groups you would like to have, then you can feed many examples of 
+each group to a classification algorithm (supervised learning), and it will classify 
+all your customers into these groups.
+
+
+
+8. Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+
+Spam detection is a typical supervised learning problem: the algorithm is fed many emails along with their labels (spam or not spam)
+
+
+9.What is an online learning system?
+
+An online learning system is a system that can learn incrementally, as opposed to a batch learning system. 
+This makes it capable of adapting rapidly to both changing data and autonomous systems, 
+and of training on very large quantities of data.
+
+
+10. What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+
+Out-of-core algorithms can handle vast quantities of data that cannot fit in a computer’s main memory. 
+An out-of-core learning algorithm chops the data into mini-batches and uses online learning techniques to learn from these mini-batches.
+
+
+11. Can you name four of the main challenges in Machine Learning?
+
+An instance-based learning system learns the training data by heart; then, 
+when given a new instance, it uses a similarity measure to find the most similar learned instances and uses them to make predictions.
+
+
+12. If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?
+
+A model has one or more model parameters that determine what it will predict given a new instance (e.g., the slope of a linear model). 
+A learning algorithm tries to find optimal values for these parameters such that the model generalizes well to new instances. 
+hyperparameter is a parameter of the learning algorithm itself, not of the model (e.g., the amount of regularization to apply).
+
+
+13. What is a test set and why would you want to use it?
+
+Model-based learning algorithms search for an optimal value for the model parameters such that the model will generalize well to new instances. 
+We usually train such systems by minimizing a cost function that measures how bad the system is at making predictions on the training data, 
+plus a penalty for model complexity if the model is regularized. To make predictions, we feed the new instance’s features into the model’s 
+prediction function, using the parameter values found by the learning algorithm.
+
+14. What is the purpose of a validation set?
+
+Some of the main challenges in Machine Learning are the lack of data, poor data quality, nonrepresentative data, uninformative features, 
+excessively simple models that underfit the training data, and excessively complex models that overfit the data.
+
+
+15. What is cross-validation and why would you prefer it to a validation set?
+
+If a model performs great on the training data but generalizes poorly to new instances, 
+the model is likely overfitting the training data (or we got extremely lucky on the training data). 
+Possible solutions to overfitting are getting more data, simplifying the model 
+(selecting a simpler algorithm, reducing the number of parameters or features used, or regularizing the model), 
+or reducing the noise in the training data.
