@@ -1,0 +1,61 @@
+1. Can you name four common components of a machine learning pipeline?
+Ans: Data Ingestion, Data Preperation, Model Training, Model Testing & Validation, Deployment
+
+
+2. What different groups of tools you might need to consider using in a Data Science project?
+Ans: Data Strore, ETL(extract, transform, load), Data Warehouse, BI & Visualization tools, AI ML, Deployment
+
+
+3. What for TensorFlow library could be used?
+Ans: ...
+
+
+4. When would you use one-hot encoding?
+Ans: To convert categorical data to numeric data.
+
+
+5. What is binning?
+Ans: Binning is a process of converting a continuous feature into multiple binary features (converting numerical value into categorical) called bins or buckets, typically based on a value range. Carefully designed binning could help an algorithm to learn from fewer examples.
+
+
+6. Describe a few options you can do when you have missing values in a dataset.
+Ans:  
+Dealing with Missing Features: In some cases and in some examples, values of some features can be missing.The typical approaches of dealing with missing values for a feature include:
+Removing the examples with missing features from the dataset (that can be done if your dataset is big enough so you can sacrifice some training examples)
+Using a learning algorithm that can deal with missing feature values (depends on the library and a specific implementation of the algorithm)
+Using a data imputation technique.
+
+Data Imputation Techniques: One data imputation technique consists in replacing the missing value of a feature by an average value of this feature in the dataset. 
+Another technique is to replace the missing value with a value outside the normal range of values. 
+- algorithm can learn how to deal with a value that is significantly different from the rest. 
+Middle of the range value can also be used. A more advanced technique is to use the missing value as the target variable for a regression problem.
+At prediction time, if your example is not complete, you should use the same data imputation technique to fill the missing features as the technique you used to complete the training data.
+Before you start working on the learning problem, you cannot tell which data imputation technique will work the best. Try several techniques, build several models and select the one that works the best.
+
+
+7. What useful information can you find out with Confusion Matrix evaluation?
+Ans: ...
+
+
+8. How is Mean Absolute Error measured?
+Ans: 
+Mean Absolute Error (MAE) is the average of the difference between the Original 
+Values and the Predicted Values. It gives us the measure of how far the predictions 
+were from the actual output. However, they don't gives us any idea of the direction of 
+the error i.e. whether we are under predicting the data or over predicting the data.
+
+
+9. What are the 8 steps that you should follow starting a Machine Learning project?
+Ans: 
+1. Frame the problem and look at the big picture
+2. Get the Data
+3. Explore the data to gain insights
+4. Prepare the data to better expose
+.
+.
+.
+.
+
+
+10. Can you name four Natural Language Processing tasks?
+Ans: 
